@@ -6,11 +6,16 @@ This is a fork from https://github.com/audiophonics/Evo_Sabre
 
 The purpose is to use an OLED 3.12 inch with SSD1322 in an moOde Audio environment. 
 
-This repository holds sources and methods developped orioginaly by Audiophonics for installing an OLED display 3.12 similar found in a EVO Sabre as second display.
+This repository holds sources and methods developped originaly by Audiophonics for installing an OLED display 3.12 similar found in a EVO Sabre as second display.
+Changes are required as GPIO connection of the display are different (RS and DC pins).
 
 ## Currently supported : 
 
- 
+### Display
+
+The following display was tested with moOde 8.1.1 32bit:
+https://www.aliexpress.com/item/32953790969.html?spm=a2g0o.cart.0.0.659b38dalhfGr0&mp=1
+
 ### moOde audio
 * Installation of OLED 3.12 Display
 * Installation of IR remote - not done
@@ -47,8 +52,6 @@ cd Evo_Sabre
 ```
 * Each supported distribution has its own directory, enter the one corresponding to the distribution installed on your EVO. 
 ```bash
-# for Volumio
-cd volumio
 # for moOde audio
 cd moode
 ```
