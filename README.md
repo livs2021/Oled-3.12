@@ -12,7 +12,7 @@ This repository holds sources and methods developped orioginaly by Audiophonics 
 
  
 ### moOde audio
-* Installation of OLED #2 Display
+* Installation of OLED 3.12 Display
 * Installation of IR remote - not done
 * Installation of aptswi (web interface with some system options, see below) 
 
