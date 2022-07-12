@@ -24,9 +24,8 @@ https://www.aliexpress.com/item/32953790969.html?spm=a2g0o.cart.0.0.659b38dalhfG
 ## APTSWI : Audiophonics ToolSet in a Web Interface
 Some options can be configured by the user (such as OLED #2 brightness, sleep-delay or boot logo) in a tiny web interface powered by nodeJS. 
 You can get there by using your web-browser to open the **port 4150** : 
-* On Volumio navigate to http://volumio:4150. 
-* Same thing on moOde Audio with http://moode:4150. 
-* It works with your EVO Sabre IP as well : http://192.168.xx.xx:4150.
+* On moOde Audio with http://moode:4150. 
+* It works with your device IP as well : http://192.168.xx.xx:4150.
 
 ## Important notes from original Audiophonics: 
 * **It should be generally safe to use this script on a non-fresh installation** of either Volumio or moOde if something broke after an update or if you messed with the configuration. However keep in mind that I designed this script for the purpose of building and debugging our custom releases and I could not test every possible scenario where the script would run on an already customized / configured device. Remember that you use this installation script at your own risks and that some extreme cases could lead you to reflash your SD card. So be sure to backup everything important (local music files on the SD card or the loggins for your volumio account) before doing anything. 
