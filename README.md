@@ -16,13 +16,17 @@ Changes are required as GPIO connection of the display are different (RS and DC 
 The following display was tested with moOde 8.1.1 32bit:
 https://www.aliexpress.com/item/32953790969.html?spm=a2g0o.cart.0.0.659b38dalhfGr0&mp=1
 
+### Connection
+
+
+
 ### moOde audio
 * Installation of OLED 3.12 Display
 * Installation of IR remote - not done
 * Installation of aptswi (web interface with some system options, see below) 
 
 ## APTSWI : Audiophonics ToolSet in a Web Interface
-Some options can be configured by the user (such as OLED #2 brightness, sleep-delay or boot logo) in a tiny web interface powered by nodeJS. 
+Some options can be configured by the user (such as OLED brightness, sleep-delay or boot logo) in a tiny web interface powered by nodeJS. 
 You can get there by using your web-browser to open the **port 4150** : 
 * On moOde Audio with http://moode:4150. 
 * It works with your device IP as well : http://192.168.xx.xx:4150.
@@ -43,11 +47,11 @@ sudo apt-get update
 
 * Download source files (this repository).
 ```bash
-git clone http://github.com/audiophonics/Evo_Sabre
+git clone https://github.com/livs2021/Oled-3.12
 ```
 * Enter directory.
 ```bash
-cd Evo_Sabre
+cd Oled-3.12
 ```
 * Each supported distribution has its own directory, enter the one corresponding to the distribution installed on your EVO. 
 ```bash
