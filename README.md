@@ -53,7 +53,7 @@ git clone https://github.com/livs2021/Oled-3.12
 ```bash
 cd Oled-3.12
 ```
-* Each supported distribution has its own directory, enter the one corresponding to the distribution installed on your EVO. 
+* Each supported distribution has its own directory, enter the one corresponding to the distribution installed on your device. 
 ```bash
 # for moOde audio
 cd moode
