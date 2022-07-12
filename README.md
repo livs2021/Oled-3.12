@@ -1,5 +1,10 @@
-# Evo Sabre
-Toolset and sources file used for customizing RPI audio distributions with EVO Sabre hardware support 
+# Oled-3.12
+
+xxxx  WORK in PROGRESS  xxxx
+
+This is a fork from https://github.com/audiophonics/Evo_Sabre
+
+The purpose is to use an OLED 3.12 inch with SSD1322 in an Moodeaudio environment. 
 
 This repository holds sources and methods for installing the specific hardware found in a EVO Sabre (second display, remote control) and some utilities in a fresh distribution for audio playback on raspberry pi. 
 
